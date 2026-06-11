@@ -4,5 +4,5 @@
     name: common
   tags: 
   - hi 
-  when: os is == "RedHat"
+  when: os == "RedHat" 
   
