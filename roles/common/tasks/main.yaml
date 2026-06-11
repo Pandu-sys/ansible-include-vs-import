@@ -10,7 +10,11 @@
   debug: 
     msg: "Hi, I am from common role msg-3"
 
-- name: common role msg-4
+- name: change the fact 
+  set_fact: 
+    od: "Debian" #overriding the previous loaded variable 
+
+- name: common role msg-4 
   debug: 
     msg: "Hi, I am from common role msg-4"
 
